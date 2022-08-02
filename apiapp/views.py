@@ -9,6 +9,9 @@ from apiapp.models import SignupDetails
 
 # Create your views here.
 
+
+#This is the first API 
+
 @api_view(['GET'])
 def firstApi(request):
     message='You have created an API'
